@@ -1,0 +1,24 @@
+.matrix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s;
+  }
+  
